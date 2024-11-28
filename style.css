@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3ccd2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background: #f0e4e4;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #0e010b;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #2c2929;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #444;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Form Sections */
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #c8e9ee;
+    border-radius: 5px;
+}
+
+/* Input, Textarea, and Select Styles */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    background: #2f1ecc;
+    color: rgb(0, 2, 3);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #d4a2a2;
+}
